@@ -1,0 +1,2272 @@
+[
+  {
+    "car": [
+      {
+        "id": "6b124ebc-d8b6-40b9-9e07-acb5f433db58",
+        "model": "Toyota Camry",
+        "year": 5696,
+        "color": "Red",
+        "created_at": "2023-09-27T11:50:42.817Z",
+        "updated_at": "2023-09-28T04:46:08.437Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5aa2cdb6-9ec6-48aa-a538-ab2dea3b3e81",
+        "model": "Honda Civic",
+        "year": 83750,
+        "color": "Blue",
+        "created_at": "2023-09-27T20:22:28.542Z",
+        "updated_at": "2023-09-27T17:47:41.886Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "807805a1-6040-47af-a241-727dfc345f5c",
+        "model": "Ford Mustang",
+        "year": 29710,
+        "color": "Black",
+        "created_at": "2023-09-27T23:43:11.820Z",
+        "updated_at": "2023-09-27T15:17:21.636Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2d76026a-1afe-4e31-9e2b-9c94e5d33b2e",
+        "model": "Chevrolet Silverado",
+        "year": 75854,
+        "color": "White",
+        "created_at": "2023-09-28T06:00:17.275Z",
+        "updated_at": "2023-09-28T04:49:10.073Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f85eb5b3-16c2-4e15-ab19-5eb87adbf362",
+        "model": "BMW 3 Series",
+        "year": 8745,
+        "color": "Silver",
+        "created_at": "2023-09-27T15:10:09.301Z",
+        "updated_at": "2023-09-27T23:07:52.413Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "70b8a791-39df-48cb-af89-b7658f5b4555",
+        "action": "Create",
+        "created_at": "2023-09-28T08:23:18.879Z",
+        "updated_at": "2023-09-27T16:03:18.414Z",
+        "car_id": "2d76026a-1afe-4e31-9e2b-9c94e5d33b2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82dd4ae9-83a8-4aae-9c65-42d6521907dc",
+        "action": "Update",
+        "created_at": "2023-09-28T09:21:31.081Z",
+        "updated_at": "2023-09-27T17:25:19.546Z",
+        "car_id": "f85eb5b3-16c2-4e15-ab19-5eb87adbf362",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38a0b702-aafd-46c4-9595-7dc8903d23c3",
+        "action": "Delete",
+        "created_at": "2023-09-27T17:53:33.965Z",
+        "updated_at": "2023-09-27T12:24:16.240Z",
+        "car_id": "2d76026a-1afe-4e31-9e2b-9c94e5d33b2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e032327-24f5-458f-8680-bced880c1958",
+        "action": "Retrieve",
+        "created_at": "2023-09-27T19:22:19.921Z",
+        "updated_at": "2023-09-27T13:31:33.570Z",
+        "car_id": "5aa2cdb6-9ec6-48aa-a538-ab2dea3b3e81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a724d19-031b-414c-8394-c6c7601fcdd0",
+        "action": "Search",
+        "created_at": "2023-09-28T09:08:19.437Z",
+        "updated_at": "2023-09-27T19:12:02.217Z",
+        "car_id": "f85eb5b3-16c2-4e15-ab19-5eb87adbf362",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "30840f91-6997-4ed6-8fa0-85cb7f3ae2b8",
+        "latitude": "37.7749",
+        "longitude": "-122.4194",
+        "created_at": "2023-09-27T18:00:33.164Z",
+        "updated_at": "2023-09-27T21:21:43.268Z",
+        "car_id": "f85eb5b3-16c2-4e15-ab19-5eb87adbf362"
+      },
+      {
+        "id": "9e470099-01bf-4145-82c6-441952dcc179",
+        "latitude": "34.0522",
+        "longitude": "-118.2437",
+        "created_at": "2023-09-28T07:09:45.781Z",
+        "updated_at": "2023-09-28T02:26:52.531Z",
+        "car_id": "807805a1-6040-47af-a241-727dfc345f5c"
+      },
+      {
+        "id": "8f6a45af-a3a4-47e5-ad4d-556076352873",
+        "latitude": "40.7128",
+        "longitude": "-74.0060",
+        "created_at": "2023-09-28T09:00:46.523Z",
+        "updated_at": "2023-09-27T15:07:34.989Z",
+        "car_id": "5aa2cdb6-9ec6-48aa-a538-ab2dea3b3e81"
+      },
+      {
+        "id": "d54a5633-66e7-4c09-b2c4-09dabfd0a7ab",
+        "latitude": "51.5074",
+        "longitude": "-0.1278",
+        "created_at": "2023-09-28T07:40:30.515Z",
+        "updated_at": "2023-09-28T10:25:46.907Z",
+        "car_id": "6b124ebc-d8b6-40b9-9e07-acb5f433db58"
+      },
+      {
+        "id": "d0d7b3a9-6ddc-4806-98ef-80493c2ac518",
+        "latitude": "48.8566",
+        "longitude": "2.3522",
+        "created_at": "2023-09-28T05:22:09.338Z",
+        "updated_at": "2023-09-27T14:26:22.800Z",
+        "car_id": "2d76026a-1afe-4e31-9e2b-9c94e5d33b2e"
+      }
+    ],
+    "booking": [
+      {
+        "id": "18729a84-977e-473c-87a2-1cb27e6b9fb7",
+        "start_time": "2023-09-27T14:43:17.424Z",
+        "end_time": "2023-09-28T08:01:57.623Z",
+        "created_at": "2023-09-27T19:46:16.346Z",
+        "updated_at": "2023-09-28T10:23:09.523Z",
+        "car_id": "f85eb5b3-16c2-4e15-ab19-5eb87adbf362",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c345e418-769d-46bb-90af-3e779efb1952",
+        "start_time": "2023-09-27T15:31:41.361Z",
+        "end_time": "2023-09-28T02:51:04.970Z",
+        "created_at": "2023-09-27T23:48:20.162Z",
+        "updated_at": "2023-09-28T11:42:02.037Z",
+        "car_id": "807805a1-6040-47af-a241-727dfc345f5c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b70cf144-c81a-419c-b566-4e96336f8978",
+        "start_time": "2023-09-27T19:27:40.688Z",
+        "end_time": "2023-09-28T05:51:27.815Z",
+        "created_at": "2023-09-27T13:16:11.356Z",
+        "updated_at": "2023-09-27T14:58:23.377Z",
+        "car_id": "2d76026a-1afe-4e31-9e2b-9c94e5d33b2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dba723d3-1da8-49c8-aa5b-352f21c165c6",
+        "start_time": "2023-09-27T13:53:21.790Z",
+        "end_time": "2023-09-28T06:56:18.717Z",
+        "created_at": "2023-09-28T09:21:41.704Z",
+        "updated_at": "2023-09-27T17:44:19.603Z",
+        "car_id": "2d76026a-1afe-4e31-9e2b-9c94e5d33b2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c58b6022-0f0d-44db-a2bb-3463ab248318",
+        "start_time": "2023-09-28T11:19:40.323Z",
+        "end_time": "2023-09-27T13:25:45.182Z",
+        "created_at": "2023-09-27T12:22:19.493Z",
+        "updated_at": "2023-09-28T04:23:54.981Z",
+        "car_id": "f85eb5b3-16c2-4e15-ab19-5eb87adbf362",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d53a30c9-cb37-46bc-8259-b395cd0e33cb",
+        "email": "Guy90@roq.tech",
+        "firstName": "Callie",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/53.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3f154c79-f2f3-4f5d-993b-86855fb1539d",
+        "email": "Melyssa.Jacobson18@roq.tech",
+        "firstName": "Lessie",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10545878",
+        "tenantId": null
+      },
+      {
+        "reference": "ccf766cd-4249-4754-b1c6-d18ecbacba67",
+        "email": "Friedrich44@roq.tech",
+        "firstName": "Louvenia",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/774.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2b8676b7-8192-4019-b3e6-21a0cdaf36fc",
+        "email": "Riley14@roq.tech",
+        "firstName": "Rhea",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1124.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c724e4d3-55eb-4c4d-a53f-b7d9fc477707",
+        "email": "Beverly_Williamson66@roq.tech",
+        "firstName": "Juliet",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/191.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "b9f86570-a729-442c-9e9c-fb0dfa405a9e",
+        "model": "Toyota Camry",
+        "year": 47753,
+        "color": "Red",
+        "created_at": "2023-09-27T12:48:30.616Z",
+        "updated_at": "2023-09-27T15:38:50.754Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e20206ce-1f01-4968-b1e0-e924f6ee9e50",
+        "model": "Honda Civic",
+        "year": 93658,
+        "color": "Blue",
+        "created_at": "2023-09-27T18:39:49.428Z",
+        "updated_at": "2023-09-27T22:20:10.115Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "aab82e32-476c-43c4-ad67-c7bcd6dd9905",
+        "model": "Ford Mustang",
+        "year": 15925,
+        "color": "Green",
+        "created_at": "2023-09-28T09:51:07.194Z",
+        "updated_at": "2023-09-28T01:58:21.199Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "77bfe9b3-55b8-4fcb-97d3-f042fea62ea5",
+        "model": "Chevrolet Silverado",
+        "year": 74252,
+        "color": "Black",
+        "created_at": "2023-09-28T08:25:41.263Z",
+        "updated_at": "2023-09-28T09:08:32.335Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3ab5731f-449b-4fb4-a147-815e8606c6e3",
+        "model": "BMW X5",
+        "year": 21892,
+        "color": "White",
+        "created_at": "2023-09-28T03:12:26.262Z",
+        "updated_at": "2023-09-28T03:23:55.282Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "d8a24e0f-c713-4e6c-9305-b9c5e3fcb651",
+        "action": "Create",
+        "created_at": "2023-09-27T22:59:57.779Z",
+        "updated_at": "2023-09-27T11:51:57.788Z",
+        "car_id": "3ab5731f-449b-4fb4-a147-815e8606c6e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5eaf64f-f776-426a-b810-9ba7ec0a646d",
+        "action": "Update",
+        "created_at": "2023-09-28T06:12:37.866Z",
+        "updated_at": "2023-09-28T11:29:38.099Z",
+        "car_id": "77bfe9b3-55b8-4fcb-97d3-f042fea62ea5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6102acc-7c84-4133-bba4-8c559fbb95e3",
+        "action": "Delete",
+        "created_at": "2023-09-28T05:11:30.765Z",
+        "updated_at": "2023-09-27T23:02:18.919Z",
+        "car_id": "b9f86570-a729-442c-9e9c-fb0dfa405a9e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b31e9fd5-2758-407e-b989-50041b0fc3bd",
+        "action": "Read",
+        "created_at": "2023-09-27T12:16:10.110Z",
+        "updated_at": "2023-09-28T06:50:45.150Z",
+        "car_id": "3ab5731f-449b-4fb4-a147-815e8606c6e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aee154e0-c819-4fa0-8c8c-e1de941fdd7d",
+        "action": "Search",
+        "created_at": "2023-09-27T15:01:55.163Z",
+        "updated_at": "2023-09-27T22:57:37.244Z",
+        "car_id": "3ab5731f-449b-4fb4-a147-815e8606c6e3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "edea12f2-5962-4afc-8f68-a98ee5aeaefd",
+        "latitude": "37.7749° N",
+        "longitude": "122.4194° W",
+        "created_at": "2023-09-28T06:36:06.647Z",
+        "updated_at": "2023-09-28T00:05:14.198Z",
+        "car_id": "3ab5731f-449b-4fb4-a147-815e8606c6e3"
+      },
+      {
+        "id": "4d238c47-c1a5-4cdd-ac52-a2eb8cbe54d0",
+        "latitude": "34.0522° N",
+        "longitude": "118.2437° W",
+        "created_at": "2023-09-27T19:55:41.964Z",
+        "updated_at": "2023-09-28T03:55:24.068Z",
+        "car_id": "aab82e32-476c-43c4-ad67-c7bcd6dd9905"
+      },
+      {
+        "id": "560cd3d5-41d4-448a-a9d1-9f661e93b153",
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W",
+        "created_at": "2023-09-28T11:12:12.380Z",
+        "updated_at": "2023-09-27T14:39:55.134Z",
+        "car_id": "3ab5731f-449b-4fb4-a147-815e8606c6e3"
+      },
+      {
+        "id": "d1f39f9b-76da-49c0-866f-d6ece3ae6cbe",
+        "latitude": "51.5074° N",
+        "longitude": "0.1276° W",
+        "created_at": "2023-09-27T14:35:17.068Z",
+        "updated_at": "2023-09-27T14:23:49.664Z",
+        "car_id": "b9f86570-a729-442c-9e9c-fb0dfa405a9e"
+      },
+      {
+        "id": "01dc86ac-25bf-4547-9951-41ac14629b67",
+        "latitude": "48.8566° N",
+        "longitude": "2.3522° E",
+        "created_at": "2023-09-27T14:37:51.347Z",
+        "updated_at": "2023-09-27T18:18:32.811Z",
+        "car_id": "e20206ce-1f01-4968-b1e0-e924f6ee9e50"
+      }
+    ],
+    "booking": [
+      {
+        "id": "925779f8-5ac4-4043-ab3e-06022f14b461",
+        "start_time": "2023-09-28T02:55:14.148Z",
+        "end_time": "2023-09-28T10:51:57.672Z",
+        "created_at": "2023-09-28T10:48:45.692Z",
+        "updated_at": "2023-09-27T19:10:42.705Z",
+        "car_id": "77bfe9b3-55b8-4fcb-97d3-f042fea62ea5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5af5887-abb6-4f3f-b020-7535fcab8ebd",
+        "start_time": "2023-09-28T02:49:27.370Z",
+        "end_time": "2023-09-27T22:04:14.099Z",
+        "created_at": "2023-09-28T03:02:13.004Z",
+        "updated_at": "2023-09-27T17:34:44.756Z",
+        "car_id": "aab82e32-476c-43c4-ad67-c7bcd6dd9905",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9a22f88-cfcd-4c80-bb8c-e8ae1947c805",
+        "start_time": "2023-09-27T20:49:38.352Z",
+        "end_time": "2023-09-27T18:13:55.497Z",
+        "created_at": "2023-09-27T12:15:45.652Z",
+        "updated_at": "2023-09-28T10:17:27.413Z",
+        "car_id": "e20206ce-1f01-4968-b1e0-e924f6ee9e50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9f21396-99be-4165-bbba-b27257b04b24",
+        "start_time": "2023-09-28T07:24:11.768Z",
+        "end_time": "2023-09-28T04:13:58.109Z",
+        "created_at": "2023-09-27T16:42:29.981Z",
+        "updated_at": "2023-09-28T07:14:34.081Z",
+        "car_id": "77bfe9b3-55b8-4fcb-97d3-f042fea62ea5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58e42a30-d77a-4d97-ba5b-ace2476866ba",
+        "start_time": "2023-09-28T09:59:50.548Z",
+        "end_time": "2023-09-28T11:30:47.402Z",
+        "created_at": "2023-09-27T15:09:38.154Z",
+        "updated_at": "2023-09-27T21:06:19.356Z",
+        "car_id": "b9f86570-a729-442c-9e9c-fb0dfa405a9e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "54d5c014-52c8-4fde-8c24-1d131839db3a",
+        "email": "Marielle54@roq.tech",
+        "firstName": "Alba",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85741659",
+        "tenantId": null
+      },
+      {
+        "reference": "3666f5aa-c178-4089-9044-5287e2ecc97c",
+        "email": "Stanton_Murray89@roq.tech",
+        "firstName": "Stanford",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/928.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4942a0b1-f934-4ea4-b86d-c7c2fd8e1f75",
+        "email": "Giles_Willms@roq.tech",
+        "firstName": "Edison",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23453697",
+        "tenantId": null
+      },
+      {
+        "reference": "791cd502-61f4-4046-a358-85b8921c764d",
+        "email": "Levi.Bosco@roq.tech",
+        "firstName": "Rashawn",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12326563",
+        "tenantId": null
+      },
+      {
+        "reference": "f1d58317-0a3c-4609-8427-32cd3be6357c",
+        "email": "Jeff.Gutmann91@roq.tech",
+        "firstName": "Walter",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69879596",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "cd43bda3-aad9-4ead-8c53-88ca9bfc4312",
+        "model": "Toyota Camry",
+        "year": 77274,
+        "color": "Red",
+        "created_at": "2023-09-27T18:28:42.522Z",
+        "updated_at": "2023-09-27T18:53:23.797Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fade0f89-ebd2-4d4a-ae6a-f7a4b95ead84",
+        "model": "Honda Civic",
+        "year": 91916,
+        "color": "Blue",
+        "created_at": "2023-09-28T06:33:20.360Z",
+        "updated_at": "2023-09-28T03:43:40.604Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5bbf93a4-bb92-40af-8853-75b2cccce555",
+        "model": "Ford Mustang",
+        "year": 7537,
+        "color": "Green",
+        "created_at": "2023-09-28T03:54:20.863Z",
+        "updated_at": "2023-09-27T17:42:01.897Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f19d2e98-4af2-4aa7-900d-2919c53bf98b",
+        "model": "Chevrolet Silverado",
+        "year": 80430,
+        "color": "Black",
+        "created_at": "2023-09-28T01:35:02.797Z",
+        "updated_at": "2023-09-27T17:02:26.995Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d9c9be5c-c9a5-4bd0-a57f-e54cad15a185",
+        "model": "BMW X5",
+        "year": 99287,
+        "color": "White",
+        "created_at": "2023-09-28T07:31:59.426Z",
+        "updated_at": "2023-09-28T00:22:18.083Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "4618d8ae-1fbd-4eda-909f-1970d6651960",
+        "action": "Create",
+        "created_at": "2023-09-28T07:21:50.608Z",
+        "updated_at": "2023-09-27T13:20:05.565Z",
+        "car_id": "cd43bda3-aad9-4ead-8c53-88ca9bfc4312",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dea46ef3-be57-4d62-8faa-a6b7384b13ca",
+        "action": "Update",
+        "created_at": "2023-09-27T23:27:26.622Z",
+        "updated_at": "2023-09-27T17:29:50.898Z",
+        "car_id": "d9c9be5c-c9a5-4bd0-a57f-e54cad15a185",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbd294a6-06b2-4344-83c3-6da8f7b94e53",
+        "action": "Delete",
+        "created_at": "2023-09-28T11:12:48.871Z",
+        "updated_at": "2023-09-27T20:43:34.549Z",
+        "car_id": "cd43bda3-aad9-4ead-8c53-88ca9bfc4312",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30190d75-d57b-4f15-b5ff-7f5cd1007224",
+        "action": "Retrieve",
+        "created_at": "2023-09-28T05:32:35.634Z",
+        "updated_at": "2023-09-28T07:15:50.613Z",
+        "car_id": "cd43bda3-aad9-4ead-8c53-88ca9bfc4312",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5890a9f-cd8c-4e07-b02b-d11fed274adf",
+        "action": "Process",
+        "created_at": "2023-09-28T01:21:22.645Z",
+        "updated_at": "2023-09-27T13:29:45.305Z",
+        "car_id": "fade0f89-ebd2-4d4a-ae6a-f7a4b95ead84",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "b721f8ae-9c0e-4df7-8ef2-7fa5b22c2880",
+        "latitude": "37.7749° N",
+        "longitude": "122.4194° W",
+        "created_at": "2023-09-27T15:16:44.254Z",
+        "updated_at": "2023-09-27T17:29:41.136Z",
+        "car_id": "5bbf93a4-bb92-40af-8853-75b2cccce555"
+      },
+      {
+        "id": "84a455d5-9440-4c33-a910-7f0d455fd5d6",
+        "latitude": "34.0522° N",
+        "longitude": "118.2437° W",
+        "created_at": "2023-09-27T20:06:57.106Z",
+        "updated_at": "2023-09-28T03:51:36.776Z",
+        "car_id": "cd43bda3-aad9-4ead-8c53-88ca9bfc4312"
+      },
+      {
+        "id": "4f0756fe-bf31-46a6-9e89-4722c95a4c2f",
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W",
+        "created_at": "2023-09-28T01:01:55.549Z",
+        "updated_at": "2023-09-28T00:43:09.717Z",
+        "car_id": "cd43bda3-aad9-4ead-8c53-88ca9bfc4312"
+      },
+      {
+        "id": "ad1293db-0c77-44ba-aadc-1e01d10fd09a",
+        "latitude": "41.8781° N",
+        "longitude": "87.6298° W",
+        "created_at": "2023-09-28T00:56:36.068Z",
+        "updated_at": "2023-09-28T09:47:21.331Z",
+        "car_id": "f19d2e98-4af2-4aa7-900d-2919c53bf98b"
+      },
+      {
+        "id": "45a7d226-1f36-49a8-868c-f043f840f716",
+        "latitude": "39.9526° N",
+        "longitude": "75.1652° W",
+        "created_at": "2023-09-27T13:10:25.286Z",
+        "updated_at": "2023-09-27T16:44:54.360Z",
+        "car_id": "cd43bda3-aad9-4ead-8c53-88ca9bfc4312"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d552cd80-c231-4ebb-9be0-3aca718d7aeb",
+        "start_time": "2023-09-28T10:23:51.301Z",
+        "end_time": "2023-09-28T05:22:39.628Z",
+        "created_at": "2023-09-28T06:26:36.104Z",
+        "updated_at": "2023-09-27T23:35:24.574Z",
+        "car_id": "f19d2e98-4af2-4aa7-900d-2919c53bf98b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c43741a9-539d-4c66-b274-fbd940f58ab7",
+        "start_time": "2023-09-27T21:32:25.300Z",
+        "end_time": "2023-09-27T17:03:04.432Z",
+        "created_at": "2023-09-28T06:10:34.766Z",
+        "updated_at": "2023-09-28T10:42:24.256Z",
+        "car_id": "fade0f89-ebd2-4d4a-ae6a-f7a4b95ead84",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b689fed2-2c6e-4470-8c78-bb0ade63138e",
+        "start_time": "2023-09-28T07:48:44.812Z",
+        "end_time": "2023-09-28T10:14:22.428Z",
+        "created_at": "2023-09-28T05:48:15.611Z",
+        "updated_at": "2023-09-27T18:24:10.992Z",
+        "car_id": "f19d2e98-4af2-4aa7-900d-2919c53bf98b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c31f3430-44d2-40e2-9d0f-c7a682f836cb",
+        "start_time": "2023-09-27T22:05:45.754Z",
+        "end_time": "2023-09-28T04:47:44.059Z",
+        "created_at": "2023-09-28T11:29:55.115Z",
+        "updated_at": "2023-09-28T03:51:29.919Z",
+        "car_id": "d9c9be5c-c9a5-4bd0-a57f-e54cad15a185",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7500bf9-94df-4a3a-99a4-3f3cab03d5d8",
+        "start_time": "2023-09-28T08:54:16.833Z",
+        "end_time": "2023-09-28T01:21:35.677Z",
+        "created_at": "2023-09-28T02:12:21.953Z",
+        "updated_at": "2023-09-27T22:12:24.250Z",
+        "car_id": "5bbf93a4-bb92-40af-8853-75b2cccce555",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b4aede83-b27c-4466-b505-909931722428",
+        "email": "Jade26@roq.tech",
+        "firstName": "Raegan",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5891488",
+        "tenantId": null
+      },
+      {
+        "reference": "4b7df927-b98f-4184-a46c-d7ca182f932f",
+        "email": "Hudson_Wilkinson@roq.tech",
+        "firstName": "Isaiah",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/431.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9007c71e-1245-497b-a1af-c28d94fb3689",
+        "email": "Fidel_OReilly25@roq.tech",
+        "firstName": "Kaia",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/354.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "55237b87-763b-4f44-bd77-643fdc5f254d",
+        "email": "Angeline14@roq.tech",
+        "firstName": "Nikko",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/813.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4d49ab31-eacc-4e9d-8f22-81a754ab0096",
+        "email": "Kiley_Kuhlman70@roq.tech",
+        "firstName": "Dominique",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1169.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "ca03601d-ee19-4456-ba52-56ffcf8a4596",
+        "model": "Sedan",
+        "year": 106,
+        "color": "Red",
+        "created_at": "2023-09-27T23:47:09.973Z",
+        "updated_at": "2023-09-27T12:04:25.334Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3ff5f38d-b681-4fc6-bfd1-1f9e394e66f7",
+        "model": "SUV",
+        "year": 28854,
+        "color": "Blue",
+        "created_at": "2023-09-28T01:16:13.938Z",
+        "updated_at": "2023-09-27T15:59:21.803Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4e166e68-be65-4799-bc04-e3ddebae0757",
+        "model": "Sports Car",
+        "year": 87268,
+        "color": "Green",
+        "created_at": "2023-09-27T16:54:57.802Z",
+        "updated_at": "2023-09-28T08:46:36.202Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b9d239e1-baf3-4530-a0f9-162396032964",
+        "model": "Hatchback",
+        "year": 59708,
+        "color": "Silver",
+        "created_at": "2023-09-27T14:05:50.684Z",
+        "updated_at": "2023-09-27T17:47:29.754Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1010a349-919d-4dd1-8f0e-2631959e1850",
+        "model": "Convertible",
+        "year": 38012,
+        "color": "Black",
+        "created_at": "2023-09-27T22:04:22.900Z",
+        "updated_at": "2023-09-28T10:47:43.748Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "7cb5a7fd-6ff6-44a5-8e31-dcdee59beae9",
+        "action": "Create",
+        "created_at": "2023-09-27T18:19:07.753Z",
+        "updated_at": "2023-09-27T22:14:30.451Z",
+        "car_id": "ca03601d-ee19-4456-ba52-56ffcf8a4596",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea3848b5-0bfb-424f-a837-40fde9c028d9",
+        "action": "Update",
+        "created_at": "2023-09-27T13:04:18.353Z",
+        "updated_at": "2023-09-28T05:56:02.109Z",
+        "car_id": "1010a349-919d-4dd1-8f0e-2631959e1850",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c79afad-9715-4a1f-94a6-ab4055d1f09b",
+        "action": "Delete",
+        "created_at": "2023-09-28T03:07:20.393Z",
+        "updated_at": "2023-09-28T10:08:39.503Z",
+        "car_id": "3ff5f38d-b681-4fc6-bfd1-1f9e394e66f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73968311-3f2a-4891-b761-311d085508ab",
+        "action": "Read",
+        "created_at": "2023-09-27T12:38:50.897Z",
+        "updated_at": "2023-09-28T07:35:34.708Z",
+        "car_id": "3ff5f38d-b681-4fc6-bfd1-1f9e394e66f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0ad4e0a-61a9-40fb-a904-d735493d0ce1",
+        "action": "Search",
+        "created_at": "2023-09-28T11:25:06.835Z",
+        "updated_at": "2023-09-27T17:54:05.013Z",
+        "car_id": "b9d239e1-baf3-4530-a0f9-162396032964",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "3327eef9-29fa-458f-9b31-2843df3d1f44",
+        "latitude": "37.7749",
+        "longitude": "-122.4194",
+        "created_at": "2023-09-28T08:05:55.004Z",
+        "updated_at": "2023-09-27T21:00:40.682Z",
+        "car_id": "3ff5f38d-b681-4fc6-bfd1-1f9e394e66f7"
+      },
+      {
+        "id": "fae50c2b-c016-4776-9727-b86bd8690195",
+        "latitude": "40.7128",
+        "longitude": "-74.0060",
+        "created_at": "2023-09-28T10:52:55.225Z",
+        "updated_at": "2023-09-28T02:34:16.930Z",
+        "car_id": "1010a349-919d-4dd1-8f0e-2631959e1850"
+      },
+      {
+        "id": "828cdfe9-4d85-491d-9cf0-8f404ff281c8",
+        "latitude": "34.0522",
+        "longitude": "-118.2437",
+        "created_at": "2023-09-28T11:02:42.285Z",
+        "updated_at": "2023-09-27T17:10:00.932Z",
+        "car_id": "b9d239e1-baf3-4530-a0f9-162396032964"
+      },
+      {
+        "id": "445f7909-6424-4eaf-a543-fbcb822b4827",
+        "latitude": "51.5074",
+        "longitude": "-0.1278",
+        "created_at": "2023-09-28T04:30:38.511Z",
+        "updated_at": "2023-09-28T02:08:20.526Z",
+        "car_id": "b9d239e1-baf3-4530-a0f9-162396032964"
+      },
+      {
+        "id": "62aaeabc-361c-4e57-90c1-8c4a552bdf60",
+        "latitude": "48.8566",
+        "longitude": "2.3522",
+        "created_at": "2023-09-28T02:09:17.764Z",
+        "updated_at": "2023-09-27T12:51:26.992Z",
+        "car_id": "b9d239e1-baf3-4530-a0f9-162396032964"
+      }
+    ],
+    "booking": [
+      {
+        "id": "85a36c72-52f4-4776-8c18-db5d59408d0b",
+        "start_time": "2023-09-28T07:22:01.127Z",
+        "end_time": "2023-09-27T19:48:08.104Z",
+        "created_at": "2023-09-27T16:21:21.724Z",
+        "updated_at": "2023-09-27T21:30:06.920Z",
+        "car_id": "3ff5f38d-b681-4fc6-bfd1-1f9e394e66f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bdb5fe8-afa6-4a70-be80-9b6de1174640",
+        "start_time": "2023-09-27T21:59:33.186Z",
+        "end_time": "2023-09-28T11:25:57.396Z",
+        "created_at": "2023-09-28T02:26:49.012Z",
+        "updated_at": "2023-09-27T12:07:35.807Z",
+        "car_id": "b9d239e1-baf3-4530-a0f9-162396032964",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11408662-5c50-4f23-8516-eef6af0f0239",
+        "start_time": "2023-09-27T20:36:25.915Z",
+        "end_time": "2023-09-28T07:23:38.496Z",
+        "created_at": "2023-09-28T01:45:17.829Z",
+        "updated_at": "2023-09-28T02:48:39.101Z",
+        "car_id": "4e166e68-be65-4799-bc04-e3ddebae0757",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "484c45bf-580e-4007-9ed4-5707f95c5654",
+        "start_time": "2023-09-28T01:19:05.693Z",
+        "end_time": "2023-09-27T19:44:18.879Z",
+        "created_at": "2023-09-27T19:10:51.014Z",
+        "updated_at": "2023-09-27T17:31:15.090Z",
+        "car_id": "4e166e68-be65-4799-bc04-e3ddebae0757",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3a597de-de83-4cb6-823f-ff53b37164eb",
+        "start_time": "2023-09-27T20:15:46.623Z",
+        "end_time": "2023-09-27T22:49:14.966Z",
+        "created_at": "2023-09-27T20:11:51.201Z",
+        "updated_at": "2023-09-28T03:20:57.698Z",
+        "car_id": "3ff5f38d-b681-4fc6-bfd1-1f9e394e66f7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "63db0427-2829-4454-b39d-ad0b9f8cece1",
+        "email": "Rahul_Carter-Moen@roq.tech",
+        "firstName": "Lester",
+        "lastName": "Windler-Stroman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/558.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23f01258-d8ab-446a-833c-86b5fc141e9d",
+        "email": "Florian5@roq.tech",
+        "firstName": "Mark",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22204448",
+        "tenantId": null
+      },
+      {
+        "reference": "0049253c-d96b-46e1-9f3a-c80ddfc5ef76",
+        "email": "Drew50@roq.tech",
+        "firstName": "Dudley",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1180.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "12842b99-30b6-422e-b651-ee724b07d67e",
+        "email": "Stephany.Frami56@roq.tech",
+        "firstName": "Bernie",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/302.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "07e32e85-46cc-4873-af20-781c9dca0bf6",
+        "email": "Yvonne12@roq.tech",
+        "firstName": "Carleton",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96806474",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "cffde13c-0132-4a06-98d4-9b017e2d3496",
+        "model": "Toyota Camry",
+        "year": 21212,
+        "color": "Red",
+        "created_at": "2023-09-27T23:13:07.904Z",
+        "updated_at": "2023-09-28T03:10:41.937Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "81373d54-46e1-4c07-b9b0-f14e9532ffe2",
+        "model": "Honda Civic",
+        "year": 64468,
+        "color": "Blue",
+        "created_at": "2023-09-27T14:04:38.570Z",
+        "updated_at": "2023-09-28T07:02:00.183Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e815ea6e-372f-493a-8109-1b8eaf6ab358",
+        "model": "Ford Mustang",
+        "year": 55056,
+        "color": "Green",
+        "created_at": "2023-09-27T17:06:11.477Z",
+        "updated_at": "2023-09-27T22:58:29.952Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ca251262-4d67-4c59-a18b-4eee89f09634",
+        "model": "Chevrolet Silverado",
+        "year": 93425,
+        "color": "Black",
+        "created_at": "2023-09-28T04:15:46.351Z",
+        "updated_at": "2023-09-27T12:35:37.141Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7b0d5d86-618c-4d62-8ce7-1a18b989db88",
+        "model": "BMW X5",
+        "year": 78742,
+        "color": "White",
+        "created_at": "2023-09-27T12:29:00.951Z",
+        "updated_at": "2023-09-28T03:46:11.530Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "5aae7a73-b088-4d1e-bbea-286d0946fee0",
+        "action": "Create",
+        "created_at": "2023-09-28T10:11:25.317Z",
+        "updated_at": "2023-09-27T14:29:38.557Z",
+        "car_id": "cffde13c-0132-4a06-98d4-9b017e2d3496",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd2f0938-0d9b-478c-9043-7fa1303f5851",
+        "action": "Update",
+        "created_at": "2023-09-27T17:35:26.281Z",
+        "updated_at": "2023-09-28T11:32:25.281Z",
+        "car_id": "7b0d5d86-618c-4d62-8ce7-1a18b989db88",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0350a7b5-ea9b-45bf-b11a-9975aae78158",
+        "action": "Delete",
+        "created_at": "2023-09-28T07:07:46.953Z",
+        "updated_at": "2023-09-27T18:09:38.147Z",
+        "car_id": "ca251262-4d67-4c59-a18b-4eee89f09634",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2714b066-5837-4eb0-8730-9db0a8422c0e",
+        "action": "Read",
+        "created_at": "2023-09-28T05:04:55.228Z",
+        "updated_at": "2023-09-28T11:22:04.000Z",
+        "car_id": "e815ea6e-372f-493a-8109-1b8eaf6ab358",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c80ef93d-5593-4ffb-8017-6d1fef9a3739",
+        "action": "Search",
+        "created_at": "2023-09-27T20:46:27.012Z",
+        "updated_at": "2023-09-27T20:04:20.365Z",
+        "car_id": "7b0d5d86-618c-4d62-8ce7-1a18b989db88",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "2798c36d-226a-4e03-8506-9ab9bd3bffd7",
+        "latitude": "37.7749° N",
+        "longitude": "122.4194° W",
+        "created_at": "2023-09-28T00:43:22.024Z",
+        "updated_at": "2023-09-28T03:45:52.146Z",
+        "car_id": "81373d54-46e1-4c07-b9b0-f14e9532ffe2"
+      },
+      {
+        "id": "6a838a1c-efe1-4d9d-8034-97d0121628c6",
+        "latitude": "34.0522° N",
+        "longitude": "118.2437° W",
+        "created_at": "2023-09-27T19:33:06.340Z",
+        "updated_at": "2023-09-28T06:44:54.278Z",
+        "car_id": "7b0d5d86-618c-4d62-8ce7-1a18b989db88"
+      },
+      {
+        "id": "a0ed3181-f352-42fa-9ab2-744efca821dd",
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W",
+        "created_at": "2023-09-28T11:30:34.498Z",
+        "updated_at": "2023-09-27T16:28:47.623Z",
+        "car_id": "e815ea6e-372f-493a-8109-1b8eaf6ab358"
+      },
+      {
+        "id": "36e83b03-462f-4dca-bdc9-38469d4de201",
+        "latitude": "41.8781° N",
+        "longitude": "87.6298° W",
+        "created_at": "2023-09-27T14:10:59.977Z",
+        "updated_at": "2023-09-27T18:08:51.006Z",
+        "car_id": "ca251262-4d67-4c59-a18b-4eee89f09634"
+      },
+      {
+        "id": "ae68d0df-6546-470c-914d-401079e054b6",
+        "latitude": "51.5074° N",
+        "longitude": "0.1278° W",
+        "created_at": "2023-09-28T02:03:29.990Z",
+        "updated_at": "2023-09-28T00:12:03.196Z",
+        "car_id": "e815ea6e-372f-493a-8109-1b8eaf6ab358"
+      }
+    ],
+    "booking": [
+      {
+        "id": "ec2e4561-e61a-4064-a735-cdc64ff0e363",
+        "start_time": "2023-09-27T21:48:47.903Z",
+        "end_time": "2023-09-28T03:59:30.735Z",
+        "created_at": "2023-09-28T08:42:13.205Z",
+        "updated_at": "2023-09-28T06:35:01.167Z",
+        "car_id": "ca251262-4d67-4c59-a18b-4eee89f09634",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8a54b48-5b90-4639-96a4-64235c546b87",
+        "start_time": "2023-09-27T21:51:51.548Z",
+        "end_time": "2023-09-27T16:57:00.863Z",
+        "created_at": "2023-09-27T20:23:38.797Z",
+        "updated_at": "2023-09-27T18:58:19.062Z",
+        "car_id": "81373d54-46e1-4c07-b9b0-f14e9532ffe2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e142de3-7be7-4cb8-8dc3-58aa703b64a9",
+        "start_time": "2023-09-28T02:48:00.765Z",
+        "end_time": "2023-09-27T15:39:02.355Z",
+        "created_at": "2023-09-27T15:05:27.617Z",
+        "updated_at": "2023-09-27T19:53:47.792Z",
+        "car_id": "7b0d5d86-618c-4d62-8ce7-1a18b989db88",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62c60dc3-b9de-4810-8263-285d3a7b99a8",
+        "start_time": "2023-09-27T21:39:03.689Z",
+        "end_time": "2023-09-27T22:17:45.697Z",
+        "created_at": "2023-09-28T10:33:19.700Z",
+        "updated_at": "2023-09-28T01:51:28.789Z",
+        "car_id": "cffde13c-0132-4a06-98d4-9b017e2d3496",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48addc70-e4b7-4ccc-a097-28cd394b4fb2",
+        "start_time": "2023-09-28T08:59:24.672Z",
+        "end_time": "2023-09-27T15:30:18.129Z",
+        "created_at": "2023-09-28T02:32:29.588Z",
+        "updated_at": "2023-09-28T03:17:14.877Z",
+        "car_id": "81373d54-46e1-4c07-b9b0-f14e9532ffe2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ae5fd632-e280-4b3a-aac9-d4b3e69e5071",
+        "email": "Maci.Hilll@roq.tech",
+        "firstName": "Stuart",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71625398",
+        "tenantId": null
+      },
+      {
+        "reference": "5e3ef70d-983f-4471-adc9-c66f869178cb",
+        "email": "Ed_Schamberger@roq.tech",
+        "firstName": "Dortha",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/646.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d7a82333-4204-4b5e-9150-dba5a0ac68f9",
+        "email": "Isom.Johnson1@roq.tech",
+        "firstName": "Martine",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/5.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0022a68e-62ec-479f-b468-250d308e3990",
+        "email": "Cheyanne91@roq.tech",
+        "firstName": "Elwyn",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/523.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79e983b2-6e17-4e31-8e1c-d4eedbc9d1c8",
+        "email": "Addie.Mante@roq.tech",
+        "firstName": "Mandy",
+        "lastName": "Wehner-Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83941080",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "cc6d34fa-4fa1-443f-b77f-99a156e74750",
+        "model": "Toyota Camry",
+        "year": 98981,
+        "color": "Red",
+        "created_at": "2023-09-28T03:56:19.241Z",
+        "updated_at": "2023-09-28T04:05:56.968Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "934a3d9e-bfcf-4787-bd45-255bfa35c989",
+        "model": "Honda Civic",
+        "year": 4514,
+        "color": "Blue",
+        "created_at": "2023-09-27T18:02:16.876Z",
+        "updated_at": "2023-09-28T11:24:37.957Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2b015fad-d4fb-42f3-9f0d-6fb843988068",
+        "model": "Ford Mustang",
+        "year": 22731,
+        "color": "Black",
+        "created_at": "2023-09-28T02:23:48.666Z",
+        "updated_at": "2023-09-27T20:00:28.616Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1c78b136-6482-43e2-b171-a971140161f9",
+        "model": "Chevrolet Silverado",
+        "year": 94876,
+        "color": "White",
+        "created_at": "2023-09-28T06:12:56.467Z",
+        "updated_at": "2023-09-27T18:21:07.007Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cf4a8c9d-b698-4131-86b3-0875df02a6b4",
+        "model": "BMW X5",
+        "year": 36006,
+        "color": "Silver",
+        "created_at": "2023-09-27T20:23:04.561Z",
+        "updated_at": "2023-09-27T16:47:39.341Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "843893fe-749b-493a-9a58-6b6e26f5c5bf",
+        "action": "Create",
+        "created_at": "2023-09-27T20:02:35.531Z",
+        "updated_at": "2023-09-28T00:58:22.388Z",
+        "car_id": "1c78b136-6482-43e2-b171-a971140161f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b9d6e68-4805-4556-b37f-53e6d4a3d551",
+        "action": "Update",
+        "created_at": "2023-09-28T10:56:04.979Z",
+        "updated_at": "2023-09-27T15:45:30.496Z",
+        "car_id": "1c78b136-6482-43e2-b171-a971140161f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16c8975e-2936-4c40-936a-eda969ff7d7c",
+        "action": "Delete",
+        "created_at": "2023-09-27T12:59:25.490Z",
+        "updated_at": "2023-09-27T16:40:50.673Z",
+        "car_id": "1c78b136-6482-43e2-b171-a971140161f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b68b19f-3434-4c00-8f35-e428329a8d12",
+        "action": "Read",
+        "created_at": "2023-09-28T04:09:00.380Z",
+        "updated_at": "2023-09-28T09:03:33.394Z",
+        "car_id": "1c78b136-6482-43e2-b171-a971140161f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d971f44-e3f7-4e25-ab32-fdd27e1ff76f",
+        "action": "Search",
+        "created_at": "2023-09-28T02:00:42.751Z",
+        "updated_at": "2023-09-27T13:27:47.598Z",
+        "car_id": "cc6d34fa-4fa1-443f-b77f-99a156e74750",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "17ee9094-4190-4286-8cd8-46c08c7c8649",
+        "latitude": "37.7749",
+        "longitude": "-122.4194",
+        "created_at": "2023-09-27T21:15:50.118Z",
+        "updated_at": "2023-09-27T17:36:42.085Z",
+        "car_id": "1c78b136-6482-43e2-b171-a971140161f9"
+      },
+      {
+        "id": "b0191618-20be-4f5d-9d7f-47e4606633d5",
+        "latitude": "34.0522",
+        "longitude": "-118.2437",
+        "created_at": "2023-09-27T20:13:05.208Z",
+        "updated_at": "2023-09-27T20:27:48.881Z",
+        "car_id": "2b015fad-d4fb-42f3-9f0d-6fb843988068"
+      },
+      {
+        "id": "c791ae3b-9fee-4c4e-ac6e-4872b47d9b9b",
+        "latitude": "40.7128",
+        "longitude": "-74.0060",
+        "created_at": "2023-09-28T11:46:14.059Z",
+        "updated_at": "2023-09-27T22:56:41.982Z",
+        "car_id": "1c78b136-6482-43e2-b171-a971140161f9"
+      },
+      {
+        "id": "cf853edc-fab4-49df-977b-43be7375f3e7",
+        "latitude": "51.5074",
+        "longitude": "-0.1278",
+        "created_at": "2023-09-27T21:40:37.093Z",
+        "updated_at": "2023-09-28T01:39:12.360Z",
+        "car_id": "2b015fad-d4fb-42f3-9f0d-6fb843988068"
+      },
+      {
+        "id": "8cd0bf96-5139-4507-8558-83f7028e992f",
+        "latitude": "48.8566",
+        "longitude": "2.3522",
+        "created_at": "2023-09-27T16:33:09.981Z",
+        "updated_at": "2023-09-28T07:17:25.376Z",
+        "car_id": "1c78b136-6482-43e2-b171-a971140161f9"
+      }
+    ],
+    "booking": [
+      {
+        "id": "c1599951-b95a-4c38-a9ca-d3f97a784b04",
+        "start_time": "2023-09-28T05:55:43.497Z",
+        "end_time": "2023-09-27T18:33:24.067Z",
+        "created_at": "2023-09-27T12:44:28.596Z",
+        "updated_at": "2023-09-27T21:35:53.245Z",
+        "car_id": "cf4a8c9d-b698-4131-86b3-0875df02a6b4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f0c4a89-811b-4d6d-b1b7-2c25952e7712",
+        "start_time": "2023-09-27T11:53:02.120Z",
+        "end_time": "2023-09-27T21:04:50.523Z",
+        "created_at": "2023-09-27T22:29:03.718Z",
+        "updated_at": "2023-09-27T18:37:43.125Z",
+        "car_id": "2b015fad-d4fb-42f3-9f0d-6fb843988068",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "679fe28a-42ed-4626-a92f-4f3d50b24572",
+        "start_time": "2023-09-28T09:27:28.627Z",
+        "end_time": "2023-09-28T09:57:12.232Z",
+        "created_at": "2023-09-27T21:52:23.767Z",
+        "updated_at": "2023-09-28T08:59:52.425Z",
+        "car_id": "cf4a8c9d-b698-4131-86b3-0875df02a6b4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23c8f9bd-c464-4fb1-a1e4-23070b47b165",
+        "start_time": "2023-09-27T18:52:52.330Z",
+        "end_time": "2023-09-27T23:33:37.937Z",
+        "created_at": "2023-09-28T02:43:03.662Z",
+        "updated_at": "2023-09-27T11:56:41.647Z",
+        "car_id": "cc6d34fa-4fa1-443f-b77f-99a156e74750",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3e4f82d-73c8-442b-a996-36942611f349",
+        "start_time": "2023-09-28T02:23:02.142Z",
+        "end_time": "2023-09-27T16:23:44.288Z",
+        "created_at": "2023-09-28T05:30:21.586Z",
+        "updated_at": "2023-09-27T12:05:26.638Z",
+        "car_id": "cf4a8c9d-b698-4131-86b3-0875df02a6b4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c4552002-9eb0-4533-a1e8-e4748135a050",
+        "email": "Noemie_Koepp@roq.tech",
+        "firstName": "Aglae",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76436724",
+        "tenantId": null
+      },
+      {
+        "reference": "9af00d01-f3f9-4fdf-9dc7-c20f6f5f4449",
+        "email": "Sigmund.Langosh@roq.tech",
+        "firstName": "Orland",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/679.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "89a99168-adbe-4119-8542-d70ee8551590",
+        "email": "Melody27@roq.tech",
+        "firstName": "Ruthie",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/490.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "368e7ec1-d65c-4c2d-bfff-f7271daf4d2c",
+        "email": "Annetta_Kling@roq.tech",
+        "firstName": "Berniece",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/136.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a01a8033-a583-4aae-919f-516c9280cf83",
+        "email": "Kariane.Stoltenberg@roq.tech",
+        "firstName": "Citlalli",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43612029",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "df6114b8-a557-45cf-a8dc-4e12cfdb95ec",
+        "model": "Toyota Camry",
+        "year": 4896,
+        "color": "Red",
+        "created_at": "2023-09-27T23:29:55.147Z",
+        "updated_at": "2023-09-28T02:00:13.588Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0969f1f5-460a-4c35-91ae-0e0cda169047",
+        "model": "Honda Civic",
+        "year": 20160,
+        "color": "Blue",
+        "created_at": "2023-09-28T00:58:46.508Z",
+        "updated_at": "2023-09-27T23:34:47.630Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a3010255-f334-4115-a9f2-90cfdc6a65aa",
+        "model": "Ford Mustang",
+        "year": 12238,
+        "color": "Black",
+        "created_at": "2023-09-27T20:29:28.797Z",
+        "updated_at": "2023-09-28T06:48:10.032Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4698c2ac-2794-4eb2-a2bd-a2d0c93f0600",
+        "model": "Chevrolet Silverado",
+        "year": 8569,
+        "color": "White",
+        "created_at": "2023-09-27T15:49:05.811Z",
+        "updated_at": "2023-09-27T23:14:44.346Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bfeb7ce4-5ec4-4eb3-8aef-e5052a740b5a",
+        "model": "BMW X5",
+        "year": 45516,
+        "color": "Silver",
+        "created_at": "2023-09-27T20:49:18.664Z",
+        "updated_at": "2023-09-27T15:40:38.410Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "45182654-9478-43fc-99f0-e8de013a0baf",
+        "action": "Create",
+        "created_at": "2023-09-27T12:45:52.667Z",
+        "updated_at": "2023-09-28T00:13:00.811Z",
+        "car_id": "4698c2ac-2794-4eb2-a2bd-a2d0c93f0600",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aad8196-62c6-4c43-a891-b2e4d18d0a49",
+        "action": "Update",
+        "created_at": "2023-09-27T14:31:45.436Z",
+        "updated_at": "2023-09-27T22:12:39.667Z",
+        "car_id": "0969f1f5-460a-4c35-91ae-0e0cda169047",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e667548-cc99-4a8b-a6b9-8b159e12e46f",
+        "action": "Delete",
+        "created_at": "2023-09-27T17:45:39.548Z",
+        "updated_at": "2023-09-27T16:47:24.116Z",
+        "car_id": "df6114b8-a557-45cf-a8dc-4e12cfdb95ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9838043-d571-49fd-a9d2-ddcdb3cb3a6a",
+        "action": "Read",
+        "created_at": "2023-09-28T07:28:22.875Z",
+        "updated_at": "2023-09-27T17:25:32.567Z",
+        "car_id": "a3010255-f334-4115-a9f2-90cfdc6a65aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f11ef3ad-8a38-4de9-83bc-1100933b1a79",
+        "action": "Search",
+        "created_at": "2023-09-27T15:02:58.287Z",
+        "updated_at": "2023-09-28T04:30:48.055Z",
+        "car_id": "df6114b8-a557-45cf-a8dc-4e12cfdb95ec",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "a413d197-597e-4581-acef-8d1ef5505c96",
+        "latitude": "37.7749",
+        "longitude": "-122.4194",
+        "created_at": "2023-09-27T13:44:33.725Z",
+        "updated_at": "2023-09-27T21:26:12.899Z",
+        "car_id": "4698c2ac-2794-4eb2-a2bd-a2d0c93f0600"
+      },
+      {
+        "id": "d3a2de10-a830-42a0-9ba4-5dba897c1e0d",
+        "latitude": "34.0522",
+        "longitude": "-118.2437",
+        "created_at": "2023-09-27T14:17:44.944Z",
+        "updated_at": "2023-09-27T21:05:36.105Z",
+        "car_id": "4698c2ac-2794-4eb2-a2bd-a2d0c93f0600"
+      },
+      {
+        "id": "17c9efaf-5d49-43ff-81d4-9e3bc610dbd4",
+        "latitude": "40.7128",
+        "longitude": "-74.0060",
+        "created_at": "2023-09-28T10:43:00.244Z",
+        "updated_at": "2023-09-28T00:41:29.793Z",
+        "car_id": "0969f1f5-460a-4c35-91ae-0e0cda169047"
+      },
+      {
+        "id": "1142c747-0bac-4d92-93bf-bda9babfb764",
+        "latitude": "51.5074",
+        "longitude": "-0.1278",
+        "created_at": "2023-09-27T15:48:25.126Z",
+        "updated_at": "2023-09-28T08:42:58.687Z",
+        "car_id": "df6114b8-a557-45cf-a8dc-4e12cfdb95ec"
+      },
+      {
+        "id": "d98aa5a5-05c0-42b6-a677-da1ca9e4fa40",
+        "latitude": "48.8566",
+        "longitude": "2.3522",
+        "created_at": "2023-09-28T04:49:15.948Z",
+        "updated_at": "2023-09-27T21:18:12.636Z",
+        "car_id": "4698c2ac-2794-4eb2-a2bd-a2d0c93f0600"
+      }
+    ],
+    "booking": [
+      {
+        "id": "86ce8383-6afd-413c-a5c3-cda96030140a",
+        "start_time": "2023-09-28T11:15:04.774Z",
+        "end_time": "2023-09-27T14:09:31.723Z",
+        "created_at": "2023-09-27T17:13:15.563Z",
+        "updated_at": "2023-09-27T12:40:55.106Z",
+        "car_id": "bfeb7ce4-5ec4-4eb3-8aef-e5052a740b5a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0488a7e-b979-4731-b477-e7b722dd5cfd",
+        "start_time": "2023-09-27T22:34:52.438Z",
+        "end_time": "2023-09-28T11:37:08.612Z",
+        "created_at": "2023-09-28T09:09:05.601Z",
+        "updated_at": "2023-09-27T20:23:19.654Z",
+        "car_id": "4698c2ac-2794-4eb2-a2bd-a2d0c93f0600",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19d23618-dde9-4337-96ec-0ce7d116874b",
+        "start_time": "2023-09-27T20:48:07.179Z",
+        "end_time": "2023-09-27T13:36:34.389Z",
+        "created_at": "2023-09-27T13:14:41.311Z",
+        "updated_at": "2023-09-28T02:43:48.735Z",
+        "car_id": "0969f1f5-460a-4c35-91ae-0e0cda169047",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8031dea1-f7bc-4d5e-bd59-681f7d60e9d6",
+        "start_time": "2023-09-28T11:43:43.372Z",
+        "end_time": "2023-09-27T12:41:45.904Z",
+        "created_at": "2023-09-28T02:13:39.905Z",
+        "updated_at": "2023-09-27T13:42:03.209Z",
+        "car_id": "df6114b8-a557-45cf-a8dc-4e12cfdb95ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32037023-97eb-46b0-84d5-21e88c8cdf0e",
+        "start_time": "2023-09-28T06:16:07.998Z",
+        "end_time": "2023-09-28T06:21:01.732Z",
+        "created_at": "2023-09-27T20:05:30.443Z",
+        "updated_at": "2023-09-28T09:53:22.213Z",
+        "car_id": "4698c2ac-2794-4eb2-a2bd-a2d0c93f0600",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c990dab9-2861-4ea1-8694-20f37016c002",
+        "email": "Alvena.Dickinson@roq.tech",
+        "firstName": "Nicolette",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87647966",
+        "tenantId": null
+      },
+      {
+        "reference": "a9928fe6-af8c-4ca6-84fc-d49914ae5964",
+        "email": "Tommie_Hills24@roq.tech",
+        "firstName": "Lilian",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/594.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "83922c15-1ed3-499d-8827-e0ba4ca7b537",
+        "email": "Liam.Watsica95@roq.tech",
+        "firstName": "Lucas",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36864918",
+        "tenantId": null
+      },
+      {
+        "reference": "59b315f6-a905-4862-ad79-982337ebcc74",
+        "email": "Sam67@roq.tech",
+        "firstName": "Alvina",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/274.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab7b0613-c40f-418e-b0a0-0943abc45769",
+        "email": "Roel.Schroeder53@roq.tech",
+        "firstName": "Webster",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/305.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "8b27495f-bb41-449f-99c7-1b4bbbfe88aa",
+        "model": "Toyota Camry",
+        "year": 15828,
+        "color": "Red",
+        "created_at": "2023-09-27T16:22:23.175Z",
+        "updated_at": "2023-09-28T00:27:01.525Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5d7a5727-fea2-4d3c-b7a2-532500cb8aab",
+        "model": "Honda Civic",
+        "year": 51168,
+        "color": "Blue",
+        "created_at": "2023-09-28T06:08:58.166Z",
+        "updated_at": "2023-09-28T11:50:40.718Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b9f9a2bf-c39f-4136-99a7-5b980a655bf0",
+        "model": "Ford Mustang",
+        "year": 88045,
+        "color": "Black",
+        "created_at": "2023-09-28T00:33:56.068Z",
+        "updated_at": "2023-09-27T23:09:45.677Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b657894a-02ca-4c85-b43a-4731cfae948c",
+        "model": "Chevrolet Silverado",
+        "year": 19727,
+        "color": "White",
+        "created_at": "2023-09-27T21:42:24.877Z",
+        "updated_at": "2023-09-28T09:42:53.227Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "038fa899-9c4d-48f8-91fc-475a0f5f6378",
+        "model": "BMW X5",
+        "year": 43948,
+        "color": "Silver",
+        "created_at": "2023-09-27T17:39:18.675Z",
+        "updated_at": "2023-09-27T23:16:18.135Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "d9d3135b-d43c-4c69-ba8a-3dcbd8505229",
+        "action": "Create",
+        "created_at": "2023-09-27T23:01:13.807Z",
+        "updated_at": "2023-09-27T12:59:23.256Z",
+        "car_id": "8b27495f-bb41-449f-99c7-1b4bbbfe88aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d99ddcc5-5ebd-4d82-a8b2-eab201351175",
+        "action": "Update",
+        "created_at": "2023-09-27T23:37:32.467Z",
+        "updated_at": "2023-09-28T04:28:45.842Z",
+        "car_id": "b9f9a2bf-c39f-4136-99a7-5b980a655bf0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9277b83-af13-4eaa-8d98-a8671bc2af34",
+        "action": "Delete",
+        "created_at": "2023-09-28T09:01:32.755Z",
+        "updated_at": "2023-09-28T03:08:28.040Z",
+        "car_id": "8b27495f-bb41-449f-99c7-1b4bbbfe88aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f3a3b04-96c7-4c7b-a62c-02d750f5b482",
+        "action": "Read",
+        "created_at": "2023-09-27T14:29:25.045Z",
+        "updated_at": "2023-09-28T03:39:14.480Z",
+        "car_id": "8b27495f-bb41-449f-99c7-1b4bbbfe88aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5678b0f3-fb47-495a-8981-839bb4ab2936",
+        "action": "Search",
+        "created_at": "2023-09-27T20:17:25.073Z",
+        "updated_at": "2023-09-28T05:30:28.878Z",
+        "car_id": "b657894a-02ca-4c85-b43a-4731cfae948c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "a9821f71-98e0-4ae3-8520-2669e32cd661",
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W",
+        "created_at": "2023-09-28T08:40:35.219Z",
+        "updated_at": "2023-09-27T13:44:31.448Z",
+        "car_id": "b9f9a2bf-c39f-4136-99a7-5b980a655bf0"
+      },
+      {
+        "id": "1a9b4d3c-e0cf-48bc-92fc-892753f9d57c",
+        "latitude": "34.0522° N",
+        "longitude": "118.2437° W",
+        "created_at": "2023-09-27T15:33:21.988Z",
+        "updated_at": "2023-09-27T12:34:11.134Z",
+        "car_id": "5d7a5727-fea2-4d3c-b7a2-532500cb8aab"
+      },
+      {
+        "id": "4b4284e5-9062-44cb-9bd7-b05dc0e6c4b6",
+        "latitude": "51.5074° N",
+        "longitude": "0.1276° W",
+        "created_at": "2023-09-27T15:51:25.723Z",
+        "updated_at": "2023-09-27T23:53:18.311Z",
+        "car_id": "b9f9a2bf-c39f-4136-99a7-5b980a655bf0"
+      },
+      {
+        "id": "883d33e3-70af-4fe7-b80e-86e51e6429b3",
+        "latitude": "37.7749° N",
+        "longitude": "122.4194° W",
+        "created_at": "2023-09-27T15:43:56.314Z",
+        "updated_at": "2023-09-27T20:34:09.206Z",
+        "car_id": "b9f9a2bf-c39f-4136-99a7-5b980a655bf0"
+      },
+      {
+        "id": "056dfee1-4d99-4384-b181-f29c4664e4db",
+        "latitude": "48.8566° N",
+        "longitude": "2.3522° E",
+        "created_at": "2023-09-27T22:46:25.145Z",
+        "updated_at": "2023-09-28T07:40:51.436Z",
+        "car_id": "038fa899-9c4d-48f8-91fc-475a0f5f6378"
+      }
+    ],
+    "booking": [
+      {
+        "id": "7322a4ef-8b6a-4705-947e-d530f62581fa",
+        "start_time": "2023-09-28T08:01:57.320Z",
+        "end_time": "2023-09-27T13:14:19.108Z",
+        "created_at": "2023-09-27T20:10:00.162Z",
+        "updated_at": "2023-09-28T08:37:08.503Z",
+        "car_id": "b657894a-02ca-4c85-b43a-4731cfae948c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9085816a-e3c0-47dc-b4c5-da0c15606750",
+        "start_time": "2023-09-27T18:41:17.431Z",
+        "end_time": "2023-09-27T22:46:32.999Z",
+        "created_at": "2023-09-28T11:10:19.800Z",
+        "updated_at": "2023-09-28T01:46:52.012Z",
+        "car_id": "5d7a5727-fea2-4d3c-b7a2-532500cb8aab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1cff246-b966-4fd8-9a49-b7be2fcbf8b5",
+        "start_time": "2023-09-28T03:14:51.022Z",
+        "end_time": "2023-09-27T18:40:41.656Z",
+        "created_at": "2023-09-28T03:54:58.919Z",
+        "updated_at": "2023-09-28T01:55:46.302Z",
+        "car_id": "b657894a-02ca-4c85-b43a-4731cfae948c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abeccd39-cfc6-4184-822e-0fc9c0692304",
+        "start_time": "2023-09-28T09:51:25.201Z",
+        "end_time": "2023-09-28T10:04:07.150Z",
+        "created_at": "2023-09-27T16:41:24.749Z",
+        "updated_at": "2023-09-28T05:24:27.638Z",
+        "car_id": "8b27495f-bb41-449f-99c7-1b4bbbfe88aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ac4e1b8-9252-491a-a563-f94f544ed6ba",
+        "start_time": "2023-09-28T00:56:35.500Z",
+        "end_time": "2023-09-27T18:03:56.089Z",
+        "created_at": "2023-09-27T13:31:37.362Z",
+        "updated_at": "2023-09-27T22:24:14.384Z",
+        "car_id": "8b27495f-bb41-449f-99c7-1b4bbbfe88aa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e2c45a7b-0a35-4973-9188-a68be29fbc4b",
+        "email": "Santino9@roq.tech",
+        "firstName": "Joan",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1200.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ddfb71e5-7592-4ab2-aa72-d2b64bd495d2",
+        "email": "Dejah_Bashirian36@roq.tech",
+        "firstName": "Rosetta",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a86e1c8-c328-4fb6-9fca-453f9999b2a2",
+        "email": "Dovie37@roq.tech",
+        "firstName": "Elmore",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4531593",
+        "tenantId": null
+      },
+      {
+        "reference": "e3b363bd-d0a2-4628-9ae4-cbfc6d6001d0",
+        "email": "Kristoffer.Cassin5@roq.tech",
+        "firstName": "Lempi",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/80.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78c6070a-cf54-4281-9895-26e2ab755b24",
+        "email": "Rashad.Nolan91@roq.tech",
+        "firstName": "Verner",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51735643",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "90b0c1e9-6319-4665-b86d-043ed19e57b0",
+        "model": "Toyota Camry",
+        "year": 87909,
+        "color": "Red",
+        "created_at": "2023-09-28T11:46:26.153Z",
+        "updated_at": "2023-09-28T09:05:28.211Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "266246b8-d4bd-49d5-a54d-ba5b3b0a372b",
+        "model": "Honda Civic",
+        "year": 51727,
+        "color": "Blue",
+        "created_at": "2023-09-28T10:26:07.161Z",
+        "updated_at": "2023-09-27T17:05:59.652Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1734f6cd-4369-439b-9929-a12cacae38f5",
+        "model": "Ford Mustang",
+        "year": 64108,
+        "color": "Green",
+        "created_at": "2023-09-27T18:31:28.320Z",
+        "updated_at": "2023-09-27T13:48:25.109Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5dbd803e-fe6a-4896-bfc2-bcf26eea1156",
+        "model": "Chevrolet Silverado",
+        "year": 1364,
+        "color": "Black",
+        "created_at": "2023-09-27T17:53:36.362Z",
+        "updated_at": "2023-09-27T23:55:37.887Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fe1143bc-d3d8-4de4-9708-d51acbb8e5aa",
+        "model": "BMW X5",
+        "year": 29395,
+        "color": "White",
+        "created_at": "2023-09-28T01:43:45.289Z",
+        "updated_at": "2023-09-27T19:39:03.508Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "c9fd8c8f-f712-46a1-a035-4b902f4f9a01",
+        "action": "Create",
+        "created_at": "2023-09-28T11:23:07.708Z",
+        "updated_at": "2023-09-27T15:58:14.521Z",
+        "car_id": "1734f6cd-4369-439b-9929-a12cacae38f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50ea808a-984a-4e68-a2dc-2c9b0a17d8e7",
+        "action": "Update",
+        "created_at": "2023-09-27T21:04:34.997Z",
+        "updated_at": "2023-09-28T10:30:08.436Z",
+        "car_id": "266246b8-d4bd-49d5-a54d-ba5b3b0a372b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "833439be-98d9-4082-a83e-4967936f8695",
+        "action": "Delete",
+        "created_at": "2023-09-27T16:22:36.865Z",
+        "updated_at": "2023-09-28T00:49:21.644Z",
+        "car_id": "1734f6cd-4369-439b-9929-a12cacae38f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a750ebd1-a96a-4e9e-bba1-8a174984e834",
+        "action": "Read",
+        "created_at": "2023-09-28T08:57:06.267Z",
+        "updated_at": "2023-09-28T05:52:53.361Z",
+        "car_id": "90b0c1e9-6319-4665-b86d-043ed19e57b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5f5a782-82b9-4f5a-bc08-89dc835b6cfd",
+        "action": "Search",
+        "created_at": "2023-09-27T23:00:17.940Z",
+        "updated_at": "2023-09-27T19:11:30.540Z",
+        "car_id": "90b0c1e9-6319-4665-b86d-043ed19e57b0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "abcdc0ea-d0e9-46ae-aada-4df6261b9fa8",
+        "latitude": "37.7749",
+        "longitude": "-122.4194",
+        "created_at": "2023-09-27T15:48:45.632Z",
+        "updated_at": "2023-09-28T03:56:48.217Z",
+        "car_id": "1734f6cd-4369-439b-9929-a12cacae38f5"
+      },
+      {
+        "id": "55dea865-6776-461e-9577-2495be7acb49",
+        "latitude": "34.0522",
+        "longitude": "-118.2437",
+        "created_at": "2023-09-28T03:42:19.962Z",
+        "updated_at": "2023-09-27T21:04:19.304Z",
+        "car_id": "5dbd803e-fe6a-4896-bfc2-bcf26eea1156"
+      },
+      {
+        "id": "590f49ca-d730-434a-b94d-f3ef7eb817e6",
+        "latitude": "40.7128",
+        "longitude": "-74.0060",
+        "created_at": "2023-09-27T23:10:43.137Z",
+        "updated_at": "2023-09-28T07:05:26.211Z",
+        "car_id": "5dbd803e-fe6a-4896-bfc2-bcf26eea1156"
+      },
+      {
+        "id": "fd9daf5d-7e32-4dd0-9076-d40f203bc350",
+        "latitude": "51.5074",
+        "longitude": "-0.1278",
+        "created_at": "2023-09-28T05:29:13.445Z",
+        "updated_at": "2023-09-28T00:46:50.875Z",
+        "car_id": "fe1143bc-d3d8-4de4-9708-d51acbb8e5aa"
+      },
+      {
+        "id": "509a2339-e8b2-419c-9d9f-1f18f1714c22",
+        "latitude": "35.6895",
+        "longitude": "139.6917",
+        "created_at": "2023-09-27T14:10:49.727Z",
+        "updated_at": "2023-09-28T04:38:10.218Z",
+        "car_id": "fe1143bc-d3d8-4de4-9708-d51acbb8e5aa"
+      }
+    ],
+    "booking": [
+      {
+        "id": "e1585291-f492-4faa-be44-846ab2ff44d0",
+        "start_time": "2023-09-28T09:48:48.247Z",
+        "end_time": "2023-09-28T08:08:07.489Z",
+        "created_at": "2023-09-27T18:58:23.913Z",
+        "updated_at": "2023-09-27T19:57:59.541Z",
+        "car_id": "1734f6cd-4369-439b-9929-a12cacae38f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64f70821-cf45-41d0-b710-c15aba657420",
+        "start_time": "2023-09-27T22:06:45.453Z",
+        "end_time": "2023-09-27T22:52:29.357Z",
+        "created_at": "2023-09-28T11:16:27.270Z",
+        "updated_at": "2023-09-27T21:12:13.840Z",
+        "car_id": "fe1143bc-d3d8-4de4-9708-d51acbb8e5aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "608414fb-f25a-421f-9609-fe5122c7ec7e",
+        "start_time": "2023-09-28T09:44:26.021Z",
+        "end_time": "2023-09-28T08:50:20.213Z",
+        "created_at": "2023-09-27T20:05:32.863Z",
+        "updated_at": "2023-09-28T03:05:08.334Z",
+        "car_id": "fe1143bc-d3d8-4de4-9708-d51acbb8e5aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4a4ae07-ac32-403c-afe2-95ffd06c73cc",
+        "start_time": "2023-09-28T10:45:05.011Z",
+        "end_time": "2023-09-28T05:41:49.560Z",
+        "created_at": "2023-09-28T02:25:26.999Z",
+        "updated_at": "2023-09-27T12:24:30.421Z",
+        "car_id": "5dbd803e-fe6a-4896-bfc2-bcf26eea1156",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8910aedc-67b5-44c0-985e-be16165dc747",
+        "start_time": "2023-09-27T20:02:15.005Z",
+        "end_time": "2023-09-28T00:56:26.841Z",
+        "created_at": "2023-09-27T20:54:59.656Z",
+        "updated_at": "2023-09-27T13:48:27.693Z",
+        "car_id": "fe1143bc-d3d8-4de4-9708-d51acbb8e5aa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1b5e618a-2830-410d-b21c-58070b10b0ab",
+        "email": "Isaiah_Schowalter14@roq.tech",
+        "firstName": "Liliane",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3dc8a9fc-af4a-4487-9e77-c38383ddceaa",
+        "email": "Lela_Simonis@roq.tech",
+        "firstName": "Hellen",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98710179",
+        "tenantId": null
+      },
+      {
+        "reference": "2391be4e-8304-481c-acca-f14651eab569",
+        "email": "Zoey_Quigley@roq.tech",
+        "firstName": "Kristina",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31448479",
+        "tenantId": null
+      },
+      {
+        "reference": "95d16e54-e044-423c-bfe2-c009cb962d7f",
+        "email": "Porter.West39@roq.tech",
+        "firstName": "Rod",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/678.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "87390ae5-db3c-4d7c-a43c-9e66c936fbe7",
+        "email": "Watson_Walker83@roq.tech",
+        "firstName": "Keon",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73527257",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "075f75ca-3588-4434-a417-04967edbadca",
+        "model": "Toyota Camry",
+        "year": 76848,
+        "color": "Red",
+        "created_at": "2023-09-28T07:20:00.215Z",
+        "updated_at": "2023-09-27T14:09:07.051Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6f62aeb8-038e-46b9-a666-952bcb24b9ee",
+        "model": "Honda Civic",
+        "year": 92016,
+        "color": "Blue",
+        "created_at": "2023-09-27T18:18:17.076Z",
+        "updated_at": "2023-09-28T06:32:35.347Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c7671e07-ed97-4044-8d62-8fa7a8da002c",
+        "model": "Ford Mustang",
+        "year": 45882,
+        "color": "Green",
+        "created_at": "2023-09-28T00:01:42.687Z",
+        "updated_at": "2023-09-28T08:34:51.254Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fb135800-54c2-4534-a992-bdf212b48195",
+        "model": "Chevrolet Silverado",
+        "year": 37041,
+        "color": "Black",
+        "created_at": "2023-09-27T13:14:39.368Z",
+        "updated_at": "2023-09-28T02:08:58.794Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "92a90641-4e04-42c8-ad10-2323467cd95e",
+        "model": "BMW 3 Series",
+        "year": 50584,
+        "color": "White",
+        "created_at": "2023-09-28T00:58:35.476Z",
+        "updated_at": "2023-09-27T16:26:18.758Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "operation": [
+      {
+        "id": "c78bbe27-bb2f-4d40-8cbe-9d3bb67d07d5",
+        "action": "Create",
+        "created_at": "2023-09-28T10:13:21.828Z",
+        "updated_at": "2023-09-27T16:33:48.266Z",
+        "car_id": "92a90641-4e04-42c8-ad10-2323467cd95e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "482de8a9-10d1-40d7-91ee-445329b1b705",
+        "action": "Update",
+        "created_at": "2023-09-27T21:55:48.360Z",
+        "updated_at": "2023-09-28T03:16:48.104Z",
+        "car_id": "92a90641-4e04-42c8-ad10-2323467cd95e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d50f2b62-c566-4f1f-9c69-5137093ac897",
+        "action": "Delete",
+        "created_at": "2023-09-27T20:32:12.111Z",
+        "updated_at": "2023-09-27T16:50:28.988Z",
+        "car_id": "fb135800-54c2-4534-a992-bdf212b48195",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19e9aff2-46d1-4e34-a3b7-7abfefe465dc",
+        "action": "Read",
+        "created_at": "2023-09-27T23:04:37.974Z",
+        "updated_at": "2023-09-28T11:09:17.942Z",
+        "car_id": "c7671e07-ed97-4044-8d62-8fa7a8da002c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c0d6d63-a419-4cef-a6ec-df1871a20738",
+        "action": "Search",
+        "created_at": "2023-09-28T01:38:26.915Z",
+        "updated_at": "2023-09-28T08:38:25.700Z",
+        "car_id": "c7671e07-ed97-4044-8d62-8fa7a8da002c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "0b6b9cdd-1da8-4a49-8d74-78a1995719a7",
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W",
+        "created_at": "2023-09-28T10:52:47.028Z",
+        "updated_at": "2023-09-27T21:14:22.975Z",
+        "car_id": "c7671e07-ed97-4044-8d62-8fa7a8da002c"
+      },
+      {
+        "id": "cd29729b-d6b2-4326-a504-78ea321d9213",
+        "latitude": "34.0522° N",
+        "longitude": "118.2437° W",
+        "created_at": "2023-09-28T03:37:39.262Z",
+        "updated_at": "2023-09-27T16:48:39.789Z",
+        "car_id": "fb135800-54c2-4534-a992-bdf212b48195"
+      },
+      {
+        "id": "01393009-c70f-485d-9947-1b33dfd803cf",
+        "latitude": "51.5074° N",
+        "longitude": "0.1278° W",
+        "created_at": "2023-09-27T16:14:34.178Z",
+        "updated_at": "2023-09-27T19:27:33.554Z",
+        "car_id": "6f62aeb8-038e-46b9-a666-952bcb24b9ee"
+      },
+      {
+        "id": "9cedb288-3d25-42fc-8963-fc7ea0221b47",
+        "latitude": "35.6895° N",
+        "longitude": "139.6917° E",
+        "created_at": "2023-09-27T20:04:08.529Z",
+        "updated_at": "2023-09-28T08:48:18.338Z",
+        "car_id": "075f75ca-3588-4434-a417-04967edbadca"
+      },
+      {
+        "id": "91d72b7a-279d-49f4-9ee6-ae26e4dc281d",
+        "latitude": "37.7749° N",
+        "longitude": "122.4194° W",
+        "created_at": "2023-09-28T07:25:06.500Z",
+        "updated_at": "2023-09-28T09:07:54.755Z",
+        "car_id": "c7671e07-ed97-4044-8d62-8fa7a8da002c"
+      }
+    ],
+    "booking": [
+      {
+        "id": "af01e9b1-d75d-4524-bd90-14e3ddbd6214",
+        "start_time": "2023-09-27T18:47:45.385Z",
+        "end_time": "2023-09-27T12:26:20.398Z",
+        "created_at": "2023-09-28T03:18:33.524Z",
+        "updated_at": "2023-09-27T19:10:25.559Z",
+        "car_id": "075f75ca-3588-4434-a417-04967edbadca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99369587-7174-4cd2-b2d6-4fe2ad97f618",
+        "start_time": "2023-09-27T19:32:20.399Z",
+        "end_time": "2023-09-28T08:14:58.353Z",
+        "created_at": "2023-09-28T03:00:01.052Z",
+        "updated_at": "2023-09-28T09:14:58.500Z",
+        "car_id": "92a90641-4e04-42c8-ad10-2323467cd95e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b386600-08ca-4ede-bb46-8bbc70e2bf69",
+        "start_time": "2023-09-28T04:00:00.207Z",
+        "end_time": "2023-09-27T12:29:37.326Z",
+        "created_at": "2023-09-28T02:47:53.421Z",
+        "updated_at": "2023-09-27T23:36:28.449Z",
+        "car_id": "075f75ca-3588-4434-a417-04967edbadca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13646dce-b300-4a9a-85bc-1340a391ad78",
+        "start_time": "2023-09-28T04:24:41.883Z",
+        "end_time": "2023-09-28T01:33:03.742Z",
+        "created_at": "2023-09-28T06:18:07.222Z",
+        "updated_at": "2023-09-27T15:10:16.220Z",
+        "car_id": "075f75ca-3588-4434-a417-04967edbadca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f242c6af-bbee-41d1-a19b-981e3b70a624",
+        "start_time": "2023-09-28T06:15:39.326Z",
+        "end_time": "2023-09-28T02:57:25.326Z",
+        "created_at": "2023-09-28T06:15:48.943Z",
+        "updated_at": "2023-09-27T23:26:36.978Z",
+        "car_id": "075f75ca-3588-4434-a417-04967edbadca",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9a5da1be-374e-42f1-bae8-d0c2a2519e3e",
+        "email": "Frederick_Effertz@roq.tech",
+        "firstName": "Allen",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d747dc0-482a-45a6-9c96-2465a60f8709",
+        "email": "Shania_Wehner@roq.tech",
+        "firstName": "Therese",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50790259",
+        "tenantId": null
+      },
+      {
+        "reference": "67443181-a783-473e-adda-ca09645a3f8d",
+        "email": "Claude_Zboncak51@roq.tech",
+        "firstName": "Amos",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f79c5823-31cd-4a2b-92e7-a2d2164da75a",
+        "email": "Narciso_Fritsch40@roq.tech",
+        "firstName": "Tara",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/913.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b77ac04-164b-4b61-b96b-90ab8f086a78",
+        "email": "Marques21@roq.tech",
+        "firstName": "Brielle",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26675374",
+        "tenantId": null
+      }
+    ]
+  }
+]
